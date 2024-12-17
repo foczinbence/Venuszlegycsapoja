@@ -1,0 +1,77 @@
+body{
+    background-color: RGB(190, 200, 235);
+    margin: 100px;
+}
+
+header{
+    background-image: url(hatter.jpg);
+    border-top: 5px solid RGB(30,45,100);
+    border-bottom: 2px solid RGB(30,45,100);
+    border-radius: 10px;
+
+    
+}
+
+
+
+footer {
+    background-color: RGB(30,45,100);
+    color:white;
+    text-align: left;
+    padding: 10px;
+}
+
+.text{
+    text-align: center;
+}
+
+table{
+    text-align: left;
+    margin: auto;
+    width: 600px;
+
+    
+    
+}
+
+tr:nth-child(1n){
+    background-color: RGB(230,230,255);
+
+}
+
+tr:nth-child(2n){
+    background-color: RGB(255,255,255);
+}
+    
+
+
+#kicsi{
+    width: 600px;
+    text-align: center;
+    border-left: 2px solid RGB(30,45,100);
+    border-right: 2px solid RGB(30,45,100);
+    border-radius: 5px;
+    margin: auto;
+
+}
+
+#kep{
+    
+    width: 600px;
+    margin: auto;
+    text-align:right;
+    transform: rotate(8deg);
+}
+
+.dolt{
+    font-style: italic;
+}
+
+.vastag{
+    font-weight: bold;
+}
+
+.kozep{
+    text-align: center;
+}
+
